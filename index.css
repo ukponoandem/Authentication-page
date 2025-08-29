@@ -1,0 +1,89 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.form-header{
+margin: 0 auto;
+    box-shadow: 4px 7px 4px white;
+    background-color: white;
+    max-width: 350px;
+    height: 80vh;
+    text-align: center;
+    margin-top: 50px;
+}
+.mains{
+    bottom: 40px;
+    
+}
+.form-header h2{
+padding-top: 40px;
+    color: blue;
+}
+.main2{
+    color: black;
+    font-size: 19px;
+}
+.form-main{
+    text-align: start;
+    margin-left: 20px;
+
+}
+.input-txt{
+    width: 280px;
+    height: 40px;
+    margin: 5px; 
+}
+.form-main input{
+    margin-bottom: 20px;
+}
+.form-p{
+    text-align: center;
+    background-color: #5c87ff;
+    max-width: 270px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form-p2{
+    text-align: center;
+    
+}
+span{
+    color: #5c87ff;
+}
+
+@media (max-width:390px) {
+
+ .form-header{
+margin: 0 auto;
+    box-shadow: 4px 7px 4px white;
+    background-color: white;
+    max-width: 300px;
+    max-height: 500px;
+    text-align: center;
+    margin-top: 0px;
+} 
+
+
+    .form-main{
+    text-align: start;
+    margin-left: 40px;
+
+}
+.input-txt{
+    width: 200px;
+    height: 30px;
+    margin: 5px; 
+}
+.form-main input{
+    margin-bottom: 10px;
+}
+.form-p{
+    text-align: center;
+    background-color: #5c87ff;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+}
