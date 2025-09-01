@@ -8,22 +8,29 @@ body{
 margin: 0 auto;
     box-shadow: 4px 7px 4px white;
     background-color: white;
-    max-width: 350px;
+    max-width: 370px;
     height: 80vh;
     text-align: center;
     margin-top: 50px;
 }
+
+.fa-solid{
+    font-size: 30px;
+}
 .mains{
-    bottom: 40px;
-    
+    bottom: 0px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
 }
 .form-header h2{
-padding-top: 40px;
+padding-top: 0px;
     color: blue;
 }
 .main2{
     color: black;
-    font-size: 19px;
+    font-size: 14px;
 }
 .form-main{
     text-align: start;
@@ -31,23 +38,27 @@ padding-top: 40px;
 
 }
 .input-txt{
-    width: 280px;
-    height: 40px;
+    width: 290px;
+    height: 42px;
     margin: 5px; 
+border: solid 1px lightgray;
+border-radius: 4px;
+     
 }
 .form-main input{
     margin-bottom: 20px;
 }
-.form-p{
-    text-align: center;
-    background-color: #5c87ff;
-    max-width: 270px;
-    padding: 10px;
-    border-radius: 5px;
+.sign-up-section{
+    width: 290px;
+       height: 40px;
+        margin: 7px;
+        background-color: #5c87ff;
+        border: none;
+        border-radius: 4px;
 }
 .form-p2{
     text-align: center;
-    
+   
 }
 span{
     color: #5c87ff;
